@@ -18,3 +18,6 @@ To-Do
 		- [ ] download function
 	- [ ] change player system to NOT be based on context menu event listener
 - [ ] style library selection page
+
+
+*this repo is also on my private git server but is also here for parity
