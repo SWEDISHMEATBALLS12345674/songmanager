@@ -6,7 +6,7 @@ To-Do
 - [ ] Revamp path system
 - [ ] Edit functionality
 	- [ ] add Add button on playlists
-		- [ ] search feature
+		- [x] search feature
 		- [ ] link pasting feature
 	- [ ] create new albums functionality
 	- [ ] delete songs functionality
