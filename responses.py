@@ -7,7 +7,7 @@ def search(handler):
   response = htmldoc(Path("/home/songmanager/assets/template.html").read_text())
   searchbar = htmlelement("div", c="searchbar").contain(htmlelement("input", id="query", type="text")).contain(htmlelement("button", onclick="validate(13)").contain("search"))
   try:
-    data = requests.get(f'https://youtube.googleapis.com/youtube/v3/search?part=snippet&q={handler.query_data["search"]}&type=video&maxResults=10&key=AIzaSyDyTyV7AzM54W73oXF40vKYwW9MQYLcg6M', headers=headers([("Accept", "application/json")])).text
+    data = requests.get(f'https://youtube.googleapis.com/youtube/v3/search?part=snippet&q={handler.query_data["search"]}&type=video&maxResults=10&key=(google api key)', headers=headers([("Accept", "application/json")])).text
     try:
       if handler.query_data["raw"] == "true":
         return httpReturn(data, [("Content-Type", "application/json")], 200)
