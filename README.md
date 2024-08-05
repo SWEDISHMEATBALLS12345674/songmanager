@@ -20,4 +20,4 @@ To-Do
 - [ ] style library selection page
 
 
-*this repo is also on my private git server but is also here for parity
+*this repo is also on my private git server but is also here for redundancy
